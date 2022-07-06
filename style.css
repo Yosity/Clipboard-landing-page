@@ -1,0 +1,175 @@
+
+body {
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 7rem;
+
+    background-image: url("images/bg-header-mobile.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    min-height: 100vh;
+    text-align: center;
+    font-family: 'Bai Jamjuree', sans-serif;
+    padding: 10% 0 0 0;
+    margin:0;
+}
+header,main {
+    margin: 0 8%;
+}
+h1 {
+    font-size: 28px;
+    color: hsl(210, 10%, 33%);
+}
+p {
+    font-size: 18px;
+    color: hsl(202, 5%, 52%);
+}
+
+header img {
+    margin-bottom: 5rem;
+}
+
+.buttons-container {
+    margin: auto;
+    margin-top: 2rem;
+}
+header .buttons-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 16rem;
+}
+.IOS{
+    background-color: hsl(171, 66%, 44%);
+    color: white;
+    font-weight: 400;
+    padding: 7%;
+    border: none;
+    border-radius: 2rem;
+
+    box-shadow: 0 1px 10px -1px hsl(171, 66%, 35%);
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+.MAC{
+    background-color: hsl(233, 100%, 69%);
+    color: white;
+    font-weight: 400;
+    padding: 7%;
+    border: none;
+    border-radius: 2rem;
+
+    box-shadow: 0 1px 10px -1px hsl(233, 55%, 54%);
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+button:hover {
+    opacity: 0.9;
+}
+button:active {
+    opacity: 0.7;
+}
+
+main .section-1 {
+    margin-bottom: 4rem;
+}
+
+main .section-2 img {
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+main .section-2 {
+    margin-bottom: 10rem;
+}
+
+main .section-3 p {
+    margin-bottom: 3rem;
+}
+main .section-3 img {
+    width: 100%;
+}
+main .section-3 {
+    margin-bottom: 4rem;
+}
+
+main .section-4 .features-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+    margin-top: 7rem;
+}
+main .section-4 {
+    margin-bottom: 5rem;
+}
+
+main .section-5 {
+    display: grid;
+    justify-content: center;
+    gap: 2.5rem;
+    margin-bottom: 6rem;
+}
+main .section-5 img {
+    width: 8rem;
+}
+
+main .buttons-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 16rem;
+}
+
+footer {
+    background-color: hsla(201, 11%, 66%,0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    padding:8% 0;
+}
+
+footer img {
+    width: 3rem;
+}
+ footer ul {
+
+    padding: 0;
+    margin: 0;
+
+}
+footer li {
+    line-height: 250%;
+    list-style: none;
+}
+footer li a {
+    text-decoration: none;
+    color: hsl(210, 10%, 33%);
+}
+footer li a:hover {
+    color:  hsl(171, 66%, 44%);
+    font-weight: bold;
+}
+footer .media-container {
+
+    width: 6rem;
+    display: flex;
+    justify-content: space-between;
+    
+    margin: auto;
+}
+footer .media-container i {
+    
+    font-size: 1.5rem;
+
+    margin: 0;
+    cursor: pointer;
+}
+footer .media-container i:hover {
+    color: hsl(171, 66%, 44%);
+}
